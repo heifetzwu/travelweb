@@ -1,0 +1,248 @@
+[
+  {
+    "date": "2025-09-22",
+    "title": "Day 1: 抵達與松本準備",
+    "items": [
+      {
+        "name": "台北→日本 CX450",
+        "time": "18:15",
+        "tag": "交通",
+        "icon": "✈️",
+        "url": "https://www.vjw.digital.go.jp/"
+      },
+      {
+        "name": "成田機場",
+        "time": "18:30",
+        "tag": "景點",
+        "icon": "🚌"
+      },
+      {
+        "name": "Hotel 東金屋1",
+        "time": "晚上",
+        "tag": "住宿",
+        "icon": "🏨"
+      }
+    ]
+  },
+  {
+    "date": "2025-09-23",
+    "title": "Day 2: 松本城巡禮與移動",
+    "items": [
+      {
+        "name": "東京→松本",
+        "time": "09:55-13:45",
+        "tag": "交通",
+        "icon": "🚌",
+        "ticket": "https://www.highwaybus.com/gp/inbound/inbWebticketPrint?3396c94598903881931dbca4695a0e2c&lang=CZ1&ticket_type=mobile"
+      },
+      {
+        "name": "松本城",
+        "time": "14:00",
+        "tag": "景點",
+        "icon": "🏯"
+      },
+      {
+        "name": "四柱神社",
+        "time": "14:30",
+        "tag": "景點",
+        "icon": "⛩️"
+      },
+      {
+        "name": "繩手通商店街",
+        "time": "15:00",
+        "tag": "景點",
+        "icon": "🏮"
+      },
+      {
+        "name": "Hotel 飯田屋",
+        "time": "晚上",
+        "tag": "住宿",
+        "icon": "🏨"
+      }
+    ]
+  },
+  {
+    "date": "2025-09-24",
+    "title": "Day 3: 登上表銀座 - 燕山莊",
+    "items": [
+      {
+        "name": "松本→穗高",
+        "time": "07:48-08:18",
+        "tag": "交通",
+        "icon": "🚆"
+      },
+      {
+        "name": "穗高→中房溫泉",
+        "time": "08:25-09:20",
+        "tag": "交通",
+        "icon": "🚌"
+      },
+      {
+        "name": "合戰小屋",
+        "time": "12:30",
+        "tag": "景點",
+        "icon": "🎍"
+      },
+      {
+        "name": "燕山莊 (抵達)",
+        "time": "13:30",
+        "tag": "住宿",
+        "icon": "🏠",
+        "url": "https://www.enzanso.co.jp/"
+      },
+      {
+        "name": "燕岳",
+        "time": "14:00",
+        "tag": "景點",
+        "icon": "⛰️"
+      }
+    ]
+  },
+  {
+    "date": "2025-09-25",
+    "title": "Day 4: 大天井岳稜線漫步",
+    "items": [
+      {
+        "name": "大天井小屋 H2650",
+        "time": "12:00",
+        "tag": "景點",
+        "icon": "🏠"
+      },
+      {
+        "name": "西岳小屋 (抵達)",
+        "time": "14:00",
+        "tag": "住宿",
+        "icon": "🏠"
+      }
+    ]
+  },
+  {
+    "date": "2025-09-26",
+    "title": "Day 5: 攻頂槍岳",
+    "items": [
+      {
+        "name": "西岳小屋 (出發)",
+        "time": "07:00",
+        "tag": "住宿",
+        "icon": "🏠"
+      },
+      {
+        "name": "水俁乘越",
+        "time": "09:00",
+        "tag": "景點",
+        "icon": "🎍"
+      },
+      {
+        "name": "大槍山屋",
+        "time": "11:30",
+        "tag": "景點",
+        "icon": "🏠"
+      },
+      {
+        "name": "槍岳山莊 (抵達)",
+        "time": "13:00",
+        "tag": "住宿",
+        "icon": "🏠"
+      },
+      {
+        "name": "槍岳 攻頂",
+        "time": "14:00",
+        "tag": "景點",
+        "icon": "⛰️"
+      }
+    ]
+  },
+  {
+    "date": "2025-09-27",
+    "title": "Day 6: 下山至上高地",
+    "items": [
+      {
+        "name": "槍岳山莊 (出發)",
+        "time": "06:00",
+        "tag": "住宿",
+        "icon": "🏠"
+      },
+      {
+        "name": "天狗園分歧",
+        "time": "07:30",
+        "tag": "景點",
+        "icon": "🎍"
+      },
+      {
+        "name": "槍澤小屋",
+        "time": "09:30",
+        "tag": "景點",
+        "icon": "🏠"
+      },
+      {
+        "name": "德澤",
+        "time": "11:30",
+        "tag": "景點",
+        "icon": "🎍"
+      },
+      {
+        "name": "上高地巴士站",
+        "time": "14:00",
+        "tag": "景點",
+        "icon": "🚌"
+      },
+      {
+        "name": "西系屋 (抵達)",
+        "time": "16:00",
+        "tag": "住宿",
+        "icon": "🏠"
+      }
+    ]
+  },
+  {
+    "date": "2025-09-28",
+    "title": "Day 7: 上高地悠遊與返回東京",
+    "items": [
+      {
+        "name": "上高地→東京",
+        "time": "14:30-19:17",
+        "tag": "交通",
+        "icon": "🚌",
+        "ticket": "https://www.highwaybus.com/gp/inbound/inbWebticketPrint?1523fb3640b72a3091eab4ebd952530e&lang=CZ1&ticket_type=mobile"
+      },
+      {
+        "name": "Tokyo Ueno Touganeya Hotel",
+        "time": "20:00",
+        "tag": "住宿",
+        "icon": "🏨",
+        "url": "http://www.tougane-h.com/e/access/"
+      }
+    ]
+  },
+  {
+    "date": "2025-09-29",
+    "title": "Day 8: 東京最後巡禮",
+    "items": [
+      {
+        "name": "上野Metro",
+        "time": "09:00",
+        "tag": "景點",
+        "icon": "🚆"
+      },
+      {
+        "name": "TOSEI HOTEL COCONE 上野",
+        "time": "晚上",
+        "tag": "住宿",
+        "icon": "🏨",
+        "url": "http://tosei-hotel.co.jp/ueno/"
+      }
+    ]
+  },
+  {
+    "date": "2025-09-30",
+    "title": "Day 9: 賦歸",
+    "items": [
+      {
+        "name": "日本→台北 CX451",
+        "time": "15:45-18:25",
+        "tag": "交通",
+        "icon": "✈️"
+      }
+    ]
+  }
+]
