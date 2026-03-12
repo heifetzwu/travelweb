@@ -41,7 +41,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `).join('');
 
-            dayBlock.innerHTML = dayHeader + itemsHtml;
+            let imagesHtml = '';
+            if (day.images && day.images.length > 0) {
+                imagesHtml = `
+                    <div class="gallery-title">Journey Photos</div>
+                    <div class="image-gallery">
+                        ${day.images.map(img => `
+                            <div class="image-item" data-img='${JSON.stringify(img)}'>
+                                <img src="${img.url}" alt="Travel Photo" loading="lazy">
+                                <div class="image-info-overlay">${img.timestamp}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+            }
+
+            dayBlock.innerHTML = dayHeader + itemsHtml + imagesHtml;
             timeline.appendChild(dayBlock);
         });
 
@@ -50,6 +65,15 @@ document.addEventListener('DOMContentLoaded', () => {
             card.addEventListener('click', () => {
                 const details = JSON.parse(card.getAttribute('data-details'));
                 showModal(details);
+            });
+        });
+
+        // Add click events to gallery images
+        document.querySelectorAll('.image-item').forEach(item => {
+            item.addEventListener('click', (e) => {
+                e.stopPropagation(); // Prevent card click if nested (though not nested here)
+                const imgDetails = JSON.parse(item.getAttribute('data-img'));
+                showImageModal(imgDetails);
             });
         });
     }
@@ -74,6 +98,20 @@ document.addEventListener('DOMContentLoaded', () => {
         if (item.ticket) {
             content += `<a href="${item.ticket}" target="_blank" class="link-btn" style="background: #3a506b; margin-left: 10px;">查看票券資訊</a>`;
         }
+
+        modalBody.innerHTML = content;
+        modal.style.display = 'block';
+        document.body.style.overflow = 'hidden'; // Prevent scroll
+    }
+
+    function showImageModal(img) {
+        let content = `
+            <img src="${img.url}" class="modal-image-full" alt="Travel Photo">
+            <div style="text-align: center;">
+                <p style="color: var(--secondary); font-family: 'Outfit'; margin-bottom: 0.5rem;">拍攝時間：${img.timestamp}</p>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">${img.url.split('/').pop()}</p>
+            </div>
+        `;
 
         modalBody.innerHTML = content;
         modal.style.display = 'block';
